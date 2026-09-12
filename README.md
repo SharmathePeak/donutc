@@ -2,6 +2,7 @@
 
 A from-scratch C implementation of the classic spinning ASCII donut, built in about 8 hours by working through the underlying math and rendering pipeline step by step — no copy-pasting the famous one-liner, just building each piece up from the source material and understanding *why* it works.
 
+![Donut demo](./demo.png)
 ```
 ```
 
