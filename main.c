@@ -53,7 +53,7 @@ int main() {
         X = k * rrx;
         Y = k * rry;
         int sx = 37 + (int)(X * scale_x);
-        int sy = 25 - (int)(Y * scale_y);
+        int sy = 15 - (int)(Y * scale_y);
         nx = cos(t) * sin(p);
         ny = sin(t) * sin(p);
         nz = cos(p);
@@ -93,7 +93,7 @@ int main() {
       A_x -= 2 * pi;
     }
     printf("\e[1;1H\e[2J");
-    A_x += 0.01 * 3;
-    A_y += 0.036 * 3;
+    A_x += 0.01 * 5;
+    A_y += 0.036 * 5;
   }
 }
